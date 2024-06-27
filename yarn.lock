@@ -15485,6 +15485,7 @@ __metadata:
     vue-tippy: "npm:^6.0.0"
     vue-tsc: "npm:2.0.10"
     wait-on: "npm:^6.0.1"
+    whatwg-url: "npm:^14.0.0"
     ws: "npm:^8.17.1"
     znv: "npm:^0.4.0"
     zod: "npm:^3.22.4"
@@ -19150,8 +19151,8 @@ __metadata:
 
 "@types/react@file:./packages/frontend-2/type-augmentations/stubs/types__react::locator=root%40workspace%3A.":
   version: 0.0.0
-  resolution: "@types/react@file:./packages/frontend-2/type-augmentations/stubs/types__react#./packages/frontend-2/type-augmentations/stubs/types__react::hash=2ea486&locator=root%40workspace%3A."
-  checksum: 10/500d185a1e5fc9e977520f4704194ad2e4391cfb8ef7747ca9f2a59bc7a52b555726e6d59e212f4a6b11ee08f06737615224031f80b7da3e216a8905642280fe
+  resolution: "@types/react@file:./packages/frontend-2/type-augmentations/stubs/types__react#./packages/frontend-2/type-augmentations/stubs/types__react::hash=3341b8&locator=root%40workspace%3A."
+  checksum: 10/e8bc37abe6beea68fddb76a579cc3fac358b3603c587c1b740589544a2338a0acd98193b9b83c6cac90de61bb97435e673d4255e7698c33385d3f28dc6fc5aed
   languageName: node
   linkType: hard
 
@@ -38896,9 +38897,9 @@ __metadata:
   linkType: hard
 
 "module-alias@npm:^2.2.2":
-  version: 2.2.2
-  resolution: "module-alias@npm:2.2.2"
-  checksum: 10/997aab639bff9b911fa856e445e5a6481b0ad84e5411b3b36a776624106e112984ff287b8be52ba53dd4088e09c2d7bd7afd951a540e4e87860017ec03e68d4e
+  version: 2.2.3
+  resolution: "module-alias@npm:2.2.3"
+  checksum: 10/43bdf125f30a6967dedd97005693fd73b9535c6770e46c890b1a87b791df358b2d5b28951b3ebaf47092b645575eeee10388735d9f6866873cb8e87c153d1fa2
   languageName: node
   linkType: hard
 

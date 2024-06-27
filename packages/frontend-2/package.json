@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "start": "yarn preview",
     "build": "NODE_OPTIONS=--max-old-space-size=8192 nuxt build",
     "build:sourcemaps": "BUILD_SOURCEMAPS=true yarn build",
     "dev:nuxt": "nuxt dev",
@@ -78,6 +79,7 @@
     "vee-validate": "^4.7.0",
     "vue-advanced-cropper": "^2.8.8",
     "vue-tippy": "^6.0.0",
+    "whatwg-url": "^14.0.0",
     "ws": "^8.17.1"
   },
   "devDependencies": {

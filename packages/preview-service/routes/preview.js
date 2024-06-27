@@ -61,7 +61,7 @@ async function getScreenshot(objectUrl, boundLogger = logger) {
   const launchParams = {
     headless: shouldBeHeadless,
     userDataDir: '/tmp/puppeteer',
-    executablePath: '/usr/bin/google-chrome-stable',
+    executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
     // we trust the web content that is running, so can disable the sandbox
     // disabling the sandbox allows us to run the docker image without linux kernel privileges
     args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage']

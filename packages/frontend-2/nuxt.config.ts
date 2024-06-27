@@ -7,7 +7,7 @@ import * as Environment from '@speckle/shared/dist/esm/environment/index'
 // Copied out from nuxt vite-builder source to correctly build output chunk/entry/asset/etc file names
 const buildOutputFileName = (chunkName: string) =>
   withoutLeadingSlash(
-    join('/_nuxt/', `${sanitizeFilePath(filename(chunkName))}.[hash].js`)
+    join('_nuxt', `${sanitizeFilePath(filename(chunkName))}.[hash].js`)
   )
 
 const {
@@ -141,7 +141,9 @@ export default defineNuxtConfig({
   },
 
   app: {
-    pageTransition: { name: 'page', mode: 'out-in' }
+    pageTransition: { name: 'page', mode: 'out-in' },
+    // baseURL: '/', // Ensure this is correctly set
+    buildAssetsDir: '/'
   },
 
   routeRules: {
@@ -163,7 +165,13 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    compressPublicAssets: true
+    compressPublicAssets: true,
+    runtimeConfig: {
+      app: {
+        // baseURL: '/',
+        buildAssetsDir: '/'
+      }
+    }
   },
 
   build: {
