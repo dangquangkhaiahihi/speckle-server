@@ -1,6 +1,6 @@
 /* eslint-disable camelcase */
 'use strict'
-
+require('dotenv').config()
 module.exports = require('knex')({
   client: 'pg',
   connection: {
